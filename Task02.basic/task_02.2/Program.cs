@@ -15,10 +15,13 @@ namespace task_02._2
             int n = int.Parse(value);
             int i;
 
-            for (i = 0; i <= n; i++);
-            Console.Write("*", i);
+            for (i = 0; i < n; i++)
+            {
+                var s = new string('*', i+1);
+                Console.WriteLine(s);
+            }
 
-
+            Console.ReadKey();
         }
     }
 }

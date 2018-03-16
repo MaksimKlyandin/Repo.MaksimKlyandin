@@ -23,7 +23,11 @@ namespace ConsoleApp1
                 Console.WriteLine("Incorrect value");
             }
             else
+            {
                 Console.WriteLine(c = a * b);
+
+            }
+
             Console.ReadKey();
 
 
